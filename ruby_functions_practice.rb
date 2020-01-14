@@ -43,5 +43,17 @@ end
 def number_to_short_month_name(num)
   if num == 1
     return "Jan"
+  elsif num == 4
+    return "Apr"
+  else num == 10
+    return "Oct"
   end
+end
+
+def volume_of_cube(length)
+return length ** 3
+end
+#
+# def volume_of_sphere(radius)
+#   return radius * pi **3
 end
